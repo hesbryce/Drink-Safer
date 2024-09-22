@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import HealthKit
 
 
 // User Model to store user data
@@ -76,7 +77,11 @@ struct ContentView: View {
                         EditButton()
                     }
                     ToolbarItem {
-                        Button(action: { showingAddDrinkSheet.toggle() }) {
+                        Button(action: {
+                            showingAddDrinkSheet.toggle()
+
+//                            log a drink to HK
+                        }) {
                             Label("Add Drink", systemImage: "plus")
                         }
                     }
@@ -90,6 +95,15 @@ struct ContentView: View {
             }
         } .onAppear {
             healthKitManager.requestAuthorization()
+        } .onTapGesture {
+//            print(healthKitManager.userAge)
+            print(healthKitManager.userAlcoholIntake)
+                                
+//            print(healthKitManager.userSex?.stringValue)
+//
+//            print(healthKitManager.userWeight)
+
+            
         }
     }
 
@@ -241,4 +255,16 @@ struct Drink {
 #Preview {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
+}
+
+extension HKBiologicalSex {
+    var stringValue: String {
+        switch self {
+        case .female: return "Female"
+        case .male: return "Male"
+        case .other: return "Other"
+        case .notSet: return "Not Set"
+        @unknown default: return "Unknown"
+        }
+    }
 }

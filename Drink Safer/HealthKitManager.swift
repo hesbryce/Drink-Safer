@@ -99,23 +99,32 @@ class HealthKitManager: ObservableObject {
     
     // Read the most recent weight entry
     func readMostRecentWeight() {
+        // Ensure the weight type is for body mass
         guard let weightType = HKObjectType.quantityType(forIdentifier: .bodyMass) else { return }
-        
+
+        // Create a sort descriptor to get the most recent weight sample
         let sortDescriptor = NSSortDescriptor(key: HKSampleSortIdentifierStartDate, ascending: false)
+
+        // Define the query to get the most recent weight sample
         let query = HKSampleQuery(sampleType: weightType, predicate: nil, limit: 1, sortDescriptors: [sortDescriptor]) { _, results, error in
             guard let results = results, let sample = results.first as? HKQuantitySample else {
                 print("Failed to fetch weight: \(error?.localizedDescription ?? "No data")")
                 return
             }
-            
-            let weightInKg = sample.quantity.doubleValue(for: .gramUnit(with: .kilo))
+
+            // Retrieve the weight in pounds directly
+            let weightInLbs = sample.quantity.doubleValue(for: .pound()) // Use .pound() unit
+
+            // Update the userWeight property on the main thread
             DispatchQueue.main.async {
-                self.userWeight = weightInKg
+                self.userWeight = weightInLbs
             }
         }
+        
+        // Execute the query
         healthStore.execute(query)
     }
-    
+
     // Read logged alcoholic drinks
     func readAlcoholicDrinks() {
         guard let alcoholType = HKObjectType.quantityType(forIdentifier: .numberOfAlcoholicBeverages) else { return }
