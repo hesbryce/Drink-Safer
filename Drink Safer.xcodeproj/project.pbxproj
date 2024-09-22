@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DA638B7F2C9FB327004701C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA638B622C9FB326004701C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA638B692C9FB326004701C6;
+			remoteInfo = "Drink Safer";
+		};
+		DA638B892C9FB327004701C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA638B622C9FB326004701C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA638B692C9FB326004701C6;
+			remoteInfo = "Drink Safer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA638B6A2C9FB326004701C6 /* Drink Safer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drink Safer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA638B7E2C9FB327004701C6 /* Drink SaferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drink SaferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA638B882C9FB327004701C6 /* Drink SaferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drink SaferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA638B902C9FB327004701C6 /* Exceptions for "Drink Safer" folder in "Drink Safer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DA638B692C9FB326004701C6 /* Drink Safer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA638B6C2C9FB326004701C6 /* Drink Safer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA638B902C9FB327004701C6 /* Exceptions for "Drink Safer" folder in "Drink Safer" target */,
+			);
+			path = "Drink Safer";
+			sourceTree = "<group>";
+		};
+		DA638B812C9FB327004701C6 /* Drink SaferTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Drink SaferTests";
+			sourceTree = "<group>";
+		};
+		DA638B8B2C9FB327004701C6 /* Drink SaferUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Drink SaferUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA638B672C9FB326004701C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B7B2C9FB327004701C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B852C9FB327004701C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA638B612C9FB326004701C6 = {
+			isa = PBXGroup;
+			children = (
+				DA638B6C2C9FB326004701C6 /* Drink Safer */,
+				DA638B812C9FB327004701C6 /* Drink SaferTests */,
+				DA638B8B2C9FB327004701C6 /* Drink SaferUITests */,
+				DA638B6B2C9FB326004701C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA638B6B2C9FB326004701C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA638B6A2C9FB326004701C6 /* Drink Safer.app */,
+				DA638B7E2C9FB327004701C6 /* Drink SaferTests.xctest */,
+				DA638B882C9FB327004701C6 /* Drink SaferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA638B692C9FB326004701C6 /* Drink Safer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA638B912C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink Safer" */;
+			buildPhases = (
+				DA638B662C9FB326004701C6 /* Sources */,
+				DA638B672C9FB326004701C6 /* Frameworks */,
+				DA638B682C9FB326004701C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA638B6C2C9FB326004701C6 /* Drink Safer */,
+			);
+			name = "Drink Safer";
+			packageProductDependencies = (
+			);
+			productName = "Drink Safer";
+			productReference = DA638B6A2C9FB326004701C6 /* Drink Safer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA638B7D2C9FB327004701C6 /* Drink SaferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA638B962C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink SaferTests" */;
+			buildPhases = (
+				DA638B7A2C9FB327004701C6 /* Sources */,
+				DA638B7B2C9FB327004701C6 /* Frameworks */,
+				DA638B7C2C9FB327004701C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA638B802C9FB327004701C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA638B812C9FB327004701C6 /* Drink SaferTests */,
+			);
+			name = "Drink SaferTests";
+			packageProductDependencies = (
+			);
+			productName = "Drink SaferTests";
+			productReference = DA638B7E2C9FB327004701C6 /* Drink SaferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA638B872C9FB327004701C6 /* Drink SaferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA638B992C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink SaferUITests" */;
+			buildPhases = (
+				DA638B842C9FB327004701C6 /* Sources */,
+				DA638B852C9FB327004701C6 /* Frameworks */,
+				DA638B862C9FB327004701C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA638B8A2C9FB327004701C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA638B8B2C9FB327004701C6 /* Drink SaferUITests */,
+			);
+			name = "Drink SaferUITests";
+			packageProductDependencies = (
+			);
+			productName = "Drink SaferUITests";
+			productReference = DA638B882C9FB327004701C6 /* Drink SaferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA638B622C9FB326004701C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DA638B692C9FB326004701C6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DA638B7D2C9FB327004701C6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DA638B692C9FB326004701C6;
+					};
+					DA638B872C9FB327004701C6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DA638B692C9FB326004701C6;
+					};
+				};
+			};
+			buildConfigurationList = DA638B652C9FB326004701C6 /* Build configuration list for PBXProject "Drink Safer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA638B612C9FB326004701C6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA638B6B2C9FB326004701C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA638B692C9FB326004701C6 /* Drink Safer */,
+				DA638B7D2C9FB327004701C6 /* Drink SaferTests */,
+				DA638B872C9FB327004701C6 /* Drink SaferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA638B682C9FB326004701C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B7C2C9FB327004701C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B862C9FB327004701C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA638B662C9FB326004701C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B7A2C9FB327004701C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA638B842C9FB327004701C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA638B802C9FB327004701C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA638B692C9FB326004701C6 /* Drink Safer */;
+			targetProxy = DA638B7F2C9FB327004701C6 /* PBXContainerItemProxy */;
+		};
+		DA638B8A2C9FB327004701C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA638B692C9FB326004701C6 /* Drink Safer */;
+			targetProxy = DA638B892C9FB327004701C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA638B922C9FB327004701C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drink Safer/Drink_Safer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drink Safer/Preview Content\"";
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drink Safer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-Safer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA638B932C9FB327004701C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drink Safer/Drink_Safer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drink Safer/Preview Content\"";
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drink Safer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-Safer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA638B942C9FB327004701C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA638B952C9FB327004701C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA638B972C9FB327004701C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-SaferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drink Safer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drink Safer";
+			};
+			name = Debug;
+		};
+		DA638B982C9FB327004701C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-SaferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drink Safer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drink Safer";
+			};
+			name = Release;
+		};
+		DA638B9A2C9FB327004701C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-SaferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drink Safer";
+			};
+			name = Debug;
+		};
+		DA638B9B2C9FB327004701C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.Drink-SaferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drink Safer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA638B652C9FB326004701C6 /* Build configuration list for PBXProject "Drink Safer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA638B942C9FB327004701C6 /* Debug */,
+				DA638B952C9FB327004701C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA638B912C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink Safer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA638B922C9FB327004701C6 /* Debug */,
+				DA638B932C9FB327004701C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA638B962C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink SaferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA638B972C9FB327004701C6 /* Debug */,
+				DA638B982C9FB327004701C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA638B992C9FB327004701C6 /* Build configuration list for PBXNativeTarget "Drink SaferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA638B9A2C9FB327004701C6 /* Debug */,
+				DA638B9B2C9FB327004701C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA638B622C9FB326004701C6 /* Project object */;
+}
